@@ -13,7 +13,7 @@ public class Abonent
 
     public override string ToString()
     {
-        return $"{Name}-{PhoneNumber}";
+        return $"{Name}:{PhoneNumber}";
     }
 
     public override bool Equals(object? obj)
